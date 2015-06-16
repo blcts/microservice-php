@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-This is a simple application written in [Silex](http://silex.sensiolabs.org/), running on [Docker](http://www.docker.com/).
+This is a simple application written in Silex.
 
 ## How to use it?
 
@@ -26,7 +25,3 @@ To do this, run:
 boot2docker ip
 
 And replace "localhost" with IP address given in the reponse.
-=======
-# microservice-php
-PHP Microservice template
->>>>>>> f3b818bacdf2c5c4c4a1734a01884851369d15c5
