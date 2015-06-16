@@ -12,7 +12,7 @@ docker build -t my-silex-app .
 
 docker run -d -p 80:80 my-silex-app
 
-### Test the app In your browser
+### Test the app in your browser
 
 localhost:80/info
 
@@ -24,4 +24,4 @@ To do this, run:
 
 boot2docker ip
 
-And replace "localhost" with IP address given in the reponse.
+And replace "localhost" with IP address given in the response.
