@@ -1,11 +1,5 @@
 <?php
-$loader = require __DIR__.'/vendor/autoload.php';
-
-$app = new Silex\Application();
-
-$app->get('/hello/{name}', function($name) use($app) {    
-    return "Hello $name!\n";
-});
+namespace phpApp;
 
 class AppInfo
 {
@@ -26,13 +20,4 @@ class AppInfo
 
         return $info;
     }
-}	
-	
-$app->get('/info', function () {
-	$info = new AppInfo();
-	$data = $info->getInfo();
-    return $data; 
-});
-
-$app->run();
-
+}
