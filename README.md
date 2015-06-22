@@ -27,3 +27,21 @@ If using boot2docker, replace localhost by your boot2docker ip. If you don't kno
    ```sh
 $ boot2docker ip
 ```
+
+5. Run a separate RabbitMQ container
+   ```sh
+$ docker pull mikaelhg/docker-rabbitmq
+$ docker run -d -p 5672:5672 -p 15672:15672 mikaelhg/docker-rabbitmq
+```
+
+6. Test RabbitMQ
+   ```sh
+$ open http://localhost/send to send a message
+$ open http://localhost/receive to read the unread messages
+```
+If using boot2docker, replace localhost by your boot2docker ip. If you don't know it, run:
+   ```sh
+$ boot2docker ip
+```
+
+Note: The RabbitMQ part currently works only when the code is ran locally. The connection to the RabbitMQ container is hard-coded on lines 45 and 65 of index.php.
