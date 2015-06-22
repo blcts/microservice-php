@@ -12,6 +12,9 @@ RUN mkdir /var/www/phpunit && cd /var/www/phpunit && composer require phpunit/ph
 # install silex
 RUN mkdir /var/www/silex && cd /var/www/silex && composer require silex/silex:~1.3
 
+# install videlalvaro/php-amqplib
+RUN mkdir /var/www/videlalvaro && cd /var/www/videlalvaro && composer require videlalvaro/php-amqplib:*
+
 # add application source file
 ADD index.php /var/www/silex/
 
