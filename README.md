@@ -44,4 +44,4 @@ If using boot2docker, replace localhost by your boot2docker ip. If you don't kno
 $ boot2docker ip
 ```
 
-Note: The RabbitMQ part currently works only when the code is ran locally. The connection to the RabbitMQ container is hard-coded on lines 45 and 65 of index.php.
+Note: The RabbitMQ part currently works only when the code is ran locally using the composer.json file. The connection to the RabbitMQ container is hard-coded on lines 45 and 65 of index.php.
