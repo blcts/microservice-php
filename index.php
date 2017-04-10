@@ -77,8 +77,12 @@ $app->get('/receive', function() {
 
 	$channel->basic_consume('hello', '', false, true, false, false, $callback);
 
-	while(count($channel->callbacks)) {
-		$channel->wait();
+	try {
+		while(count($channel->callbacks)) {
+			$channel->wait();
+		}
+	} catch (Exception $e]) {
+		//Mute exception
 	}
 
 	$channel->close();
