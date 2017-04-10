@@ -1,4 +1,5 @@
 {
+	"author" : "Elena",
     "require": {
 		"silex/silex": "~1.3",
 		"fiunchinho/rabbitmq-service-provider":"*",
