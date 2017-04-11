@@ -6,6 +6,7 @@ class AppInfo
     public function getInfo()
     {
 		$info = '{"service": {
+			"version": "3.2",
 			"name": "Example Service in PHP",
 			"description": "This is a sample scaffolding for creating a PHP microservice",
 			"language": "PHP",
