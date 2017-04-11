@@ -20,7 +20,7 @@ class AppInfo
 					'name' => 'Example Service in PHP',
 					'description' => 'This is a sample scaffolding for creating a PHP microservice',
 					'language' => 'PHP',
-					'version' => '5.3',
+					'version' => '5.3.4',
 					'dependencies' => 
 					array(
 						'silex' => 'The PHP micro-framework based on the Symfony2 Components',
