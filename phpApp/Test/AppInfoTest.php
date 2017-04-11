@@ -9,6 +9,7 @@ class AppInfoTest extends \PHPUnit_Framework_TestCase
     public function testPhpAppInfoResponse()
     {
 		$expectedInfo = '{"service": {
+			"author": "Blcts",			
 			"name": "Example Service in PHP",
 			"description": "This is a sample scaffolding for creating a PHP microservice",
 			"language": "PHP",
