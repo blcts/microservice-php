@@ -15,6 +15,7 @@ class AppInfo
     {
 		$info = array(
 			   'service' => array(
+					'data' => '11.04',
 					'author' => 'Blcts',
 					'name' => 'Example Service in PHP',
 					'description' => 'This is a sample scaffolding for creating a PHP microservice',
